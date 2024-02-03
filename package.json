@@ -17,8 +17,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": "npm run lint:precommit",
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss}": "npm run fmt:precommit"
+    "app/**/*.{ts,tsx}": "npm run lint:precommit",
+    "app/**/*.{js,jsx,ts,tsx,json,css,scss}": "npm run fmt:precommit"
   },
   "dependencies": {
     "next": "14.1.0",
